@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>White Water Adventures — Trips</title>
+  <meta name="description" content="Explore White Water Adventures trip options: family floats, River Rush, and Extreme Expeditions. Details, durations, gear, and pricing." />
+  <link rel="stylesheet" href="rafting.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <img src="images/logo.png" alt="White Water Adventures logo" class="site-logo" />
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html" aria-current="page">Trips</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="trips-hero" aria-labelledby="trips-heading">
+      <h1 id="trips-heading">Our Trips</h1>
+      <p class="lead">Options for families, beginners, and experienced rafters. Below are details and what’s included.</p>
+      <a class="cta-btn" href="contact.html">Contact Us About Trips</a>
+    </section>
+
+    <!-- Trip cards -->
+    <section class="trip-cards" aria-label="Trip offerings">
+      <article class="trip">
+        <figure>
+          <img src="images/trip1.jpg" alt="River Rush Adventure at rapids" />
+          <figcaption>River Rush Adventure</figcaption>
+        </figure>
+        <h2>River Rush Adventure</h2>
+        <p><strong>Difficulty:</strong> Intermediate (Class III–IV). <strong>Duration:</strong> ~3 hours. <strong>Includes:</strong> PFD, helmet, certified guide, photos.</p>
+        <p>Great for paddlers seeking excitement with a mix of technical rapids and scenic sections. Recommended minimum age: 12.</p>
+      </article>
+
+      <article class="trip">
+        <figure>
+          <img src="images/trip2.jpg" alt="Family float on calm waters" />
+          <figcaption>Family Float Trip</figcaption>
+        </figure>
+        <h2>Family Float Trip</h2>
+        <p><strong>Difficulty:</strong> Easy (Class I–II). <strong>Duration:</strong> ~2 hours. <strong>Includes:</strong> PFD, guide.</p>
+        <p>A calm, scenic float perfect for families and first-timers. Plenty of photo ops and wildlife viewing. Recommended minimum age: 6.</p>
+      </article>
+
+      <article class="trip">
+        <figure>
+          <img src="images/trip3.jpg" alt="Expert team navigating extreme rapids" />
+          <figcaption>Extreme Rapids Expedition</figcaption>
+        </figure>
+        <h2>Extreme Rapids Expedition</h2>
+        <p><strong>Difficulty:</strong> Advanced (Class IV–V). <strong>Duration:</strong> ~5 hours. <strong>Includes:</strong> Guide, safety briefing (participants must be experienced).</p>
+        <p>For experienced rafters who want a full adrenaline experience. Safety briefing and proper equipment required. Recommended minimum age: 16.</p>
+      </article>
+    </section>
+
+    <!-- Trips table -->
+    <section class="trip-table-section" aria-labelledby="table-heading">
+      <h2 id="table-heading">Trip Summary</h2>
+      <table class="trip-table">
+        <caption class="visually-hidden">Summary of available rafting trips</caption>
+        <thead>
+          <tr>
+            <th scope="col">Trip</th>
+            <th scope="col">Difficulty</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Min Age</th>
+            <th scope="col">Price (USD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>River Rush Adventure</td>
+            <td>Intermediate</td>
+            <td>3 hours</td>
+            <td>12</td>
+            <td>$75</td>
+          </tr>
+          <tr>
+            <td>Family Float Trip</td>
+            <td>Easy</td>
+            <td>2 hours</td>
+            <td>6</td>
+            <td>$50</td>
+          </tr>
+          <tr>
+            <td>Extreme Rapids Expedition</td>
+            <td>Advanced</td>
+            <td>5 hours</td>
+            <td>16</td>
+            <td>$120</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year2">2025</span> White Water Adventures — All rights reserved.</p>
+      <p><a href="privacy.html">Privacy</a> · <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

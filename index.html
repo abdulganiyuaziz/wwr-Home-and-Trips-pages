@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>White Water Adventures — Home</title>
+  <meta name="description" content="White Water Adventures — thrilling guided river trips for families, beginners, and experts. Learn about trips, sign up for our newsletter, and book your next adventure." />
+  <link rel="stylesheet" href="rafting.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <img src="images/logo.png" alt="White Water Adventures logo" class="site-logo" />
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <img src="images/hero.jpg" alt="Inflatable raft navigating white water rapids" class="hero-img" />
+      <div class="hero-overlay">
+        <h1 id="hero-heading">White Water Adventures — Finish Strong</h1>
+        <p class="hero-sub">Guided rafting trips for every skill level. Safety-first. Fun always.</p>
+        <a class="cta-btn" href="trips.html">See Trips</a>
+      </div>
+    </section>
+
+    <!-- GRID: purpose + features -->
+    <section class="home-grid container" aria-labelledby="why-heading">
+      <h2 id="why-heading" class="visually-hidden">Why choose White Water Adventures</h2>
+
+      <article class="grid-card">
+        <img src="images/adventure1.jpg" alt="Group paddling together" />
+        <h3>Unforgettable Adventures</h3>
+        <p>From family floats to adrenaline-pumping rapids, our trips create lasting memories for everyone.</p>
+      </article>
+
+      <article class="grid-card">
+        <img src="images/adventure2.jpg" alt="Guide leading a group on the river" />
+        <h3>Expert Guides & Safety</h3>
+        <p>Certified guides and up-to-date safety training so you can enjoy the ride with confidence.</p>
+      </article>
+
+      <article class="grid-card">
+        <img src="images/adventure3.jpg" alt="Scenic riverside view" />
+        <h3>Beautiful Scenery</h3>
+        <p>Experience dramatic gorges, wildlife, and peaceful stretches between the rapids.</p>
+      </article>
+
+      <aside class="newsletter-card" aria-labelledby="newsletter-heading">
+        <h3 id="newsletter-heading">Get Trip Updates & Offers</h3>
+        <form action="#" method="post" class="newsletter-form" novalidate>
+          <label for="newsletter-name">Full name</label>
+          <input id="newsletter-name" name="name" type="text" required />
+
+          <label for="newsletter-email">Email address</label>
+          <input id="newsletter-email" name="email" type="email" required />
+
+          <button type="submit" class="btn-primary" aria-label="Sign up for newsletter">Sign Up</button>
+        </form>
+      </aside>
+    </section>
+
+    <!-- PROMO CTA -->
+    <section class="promo container" aria-labelledby="promo-heading">
+      <h2 id="promo-heading">Ready for your next adventure?</h2>
+      <p>Browse our trips and select the experience that matches your thrill level.</p>
+      <a class="cta-btn" href="trips.html">Explore Trips</a>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year">2025</span> White Water Adventures — All rights reserved.</p>
+      <p><a href="privacy.html">Privacy</a> · <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
